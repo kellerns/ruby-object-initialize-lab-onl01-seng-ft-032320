@@ -5,7 +5,7 @@ class Dog
     if block_given?
       @breed = breed
     else
-      @breed = Mutt
+      @breed = "Mutt"
     end
   end
 end
